@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T00:58:42.484Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="NVbYfX_OHkhYj2vyv_jy" version="21.1.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-04-19T06:42:57.859Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="E81i0IOVeS0mOWBIXRy4" version="21.1.8" type="github" pages="5">
   <diagram name="Monolith" id="Vc391b4DS1AZZZHlOBN_">
     <mxGraphModel dx="1434" dy="855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -198,8 +198,11 @@
         <mxCell id="4dkt3fiIAm5uY0ahmFpJ-22" value="productName" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="698" y="920" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-24" value="9975477764" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1040" width="430" height="60" as="geometry" />
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-24" value="&lt;a href=&quot;https://github.com/abhinandanchivate/product-service/tree/master/productservice&quot; style=&quot;font-size: 22px;&quot;&gt;https://github.com/abhinandanchivate/product-service/tree/master/productservice&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://codeshare.io/j0wdyL&quot;&gt;https://codeshare.io/j0wdyL&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1070" width="610" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-25" value="application.yml : will hold the config for our config server.&lt;br&gt;product-service.yml : it will hold config for product-service rest application.&lt;br&gt;order-service.yml : will hold the order-service related config.&lt;br&gt;payment-service : same." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="1430" width="596" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
