@@ -1,102 +1,205 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T08:17:46.648Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="TzVNoS3H9JHWf8KVK9w5" version="21.1.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-19T00:58:42.484Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="NVbYfX_OHkhYj2vyv_jy" version="21.1.8" type="github" pages="5">
   <diagram name="Monolith" id="Vc391b4DS1AZZZHlOBN_">
-    <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nnMX1ZjGHwc21WBr8M5X-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="nnMX1ZjGHwc21WBr8M5X-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="70" y="100" width="660" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="nnMX1ZjGHwc21WBr8M5X-2" value="benefits of monoliths:" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="nnMX1ZjGHwc21WBr8M5X-2" value="benefits of monoliths:" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="160" y="160" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nnMX1ZjGHwc21WBr8M5X-3" value="1. &amp;nbsp;deployment is easy : bcoz everything is in a single project/app : easy to deploy&amp;nbsp;&lt;br&gt;2. development is easy : only one app and tech stack is stable.&lt;br&gt;3. Testing is simplified: one app to test.==&amp;gt; tech stack would be stable.(testing env)." style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="nnMX1ZjGHwc21WBr8M5X-3" value="1. &amp;nbsp;deployment is easy : bcoz everything is in a single project/app : easy to deploy&amp;nbsp;&lt;br&gt;2. development is easy : only one app and tech stack is stable.&lt;br&gt;3. Testing is simplified: one app to test.==&amp;gt; tech stack would be stable.(testing env)." style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="160" y="300" width="460" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="nnMX1ZjGHwc21WBr8M5X-4" value="Problems :&amp;nbsp;&lt;br style=&quot;font-size: 22px;&quot;&gt;1.as the business req of monolith grows , increase the complexity.&lt;br style=&quot;font-size: 22px;&quot;&gt;2. can lead to anti patterns like spaghetti code / big ball of mud&lt;br style=&quot;font-size: 22px;&quot;&gt;3. difficult to modify&lt;br style=&quot;font-size: 22px;&quot;&gt;4. technology lock in/ tightly coupled with tech stack.&amp;nbsp;&lt;br style=&quot;font-size: 22px;&quot;&gt;5. difficult to introduce the new tech stack on the basis of req." style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="nnMX1ZjGHwc21WBr8M5X-4" value="Problems :&amp;nbsp;&lt;br style=&quot;font-size: 22px;&quot;&gt;1.as the business req of monolith grows , increase the complexity.&lt;br style=&quot;font-size: 22px;&quot;&gt;2. can lead to anti patterns like spaghetti code / big ball of mud&lt;br style=&quot;font-size: 22px;&quot;&gt;3. difficult to modify&lt;br style=&quot;font-size: 22px;&quot;&gt;4. technology lock in/ tightly coupled with tech stack.&amp;nbsp;&lt;br style=&quot;font-size: 22px;&quot;&gt;5. difficult to introduce the new tech stack on the basis of req." style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="110" y="740" width="780" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="nnMX1ZjGHwc21WBr8M5X-5" value="are monoliths are bad?&lt;br&gt;&lt;br&gt;it depends on nature of work and depthness of the project." style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="nnMX1ZjGHwc21WBr8M5X-5" value="are monoliths are bad?&lt;br&gt;&lt;br&gt;it depends on nature of work and depthness of the project." style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="130" y="1200" width="740" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="illFbStHGtwfiAn4s0o4" name="Microservices">
-    <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="51fNQVRpRoQ2UUbKy1JU-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="20" y="40" width="960" height="820" as="geometry" />
+        <mxCell id="51fNQVRpRoQ2UUbKy1JU-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="20" y="40" width="1080" height="1620" as="geometry" />
         </mxCell>
-        <mxCell id="51fNQVRpRoQ2UUbKy1JU-2" value="Microservices: &amp;nbsp; &amp;nbsp;&lt;br&gt;small targeted services.&lt;br&gt;each service will have its own repository.&lt;br&gt;are isolated from other services&lt;br&gt;should not be bundled with other services.&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="51fNQVRpRoQ2UUbKy1JU-2" value="Microservices: &amp;nbsp; &amp;nbsp;&lt;br&gt;small targeted services.&lt;br&gt;each service will have its own repository.&lt;br&gt;are isolated from other services&lt;br&gt;should not be bundled with other services.&lt;br&gt;MS are loosely coupled.&lt;br&gt;when they are interacting with other services , should be done in a technology agnostic manner.&lt;br&gt;communication is going to happen in terms of rest call.&lt;br&gt;&lt;br&gt;impl: restfull web services." style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="90" y="70" width="690" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zUffg30LubkWcgJBZvF0-1" value="With MS ARCH:&amp;nbsp;&lt;br&gt;application are composed using individual MS.&lt;br&gt;each service will typically have only one DB.&lt;br&gt;each service is independently deployable.&lt;br&gt;scaling of individual service is now possible.&lt;br&gt;&lt;b&gt;updating the code base/ planning the release would be early compared with monolith.&lt;br&gt;CI/CD becomes easy since services are small and less complex to deploy.&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="110" y="410" width="720" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="zUffg30LubkWcgJBZvF0-2" value="Benefits :&amp;nbsp;&lt;br&gt;1. easy to understand &amp;amp; develop : since services smaller and more targeted.&lt;br&gt;2. software quality :&amp;nbsp;&lt;br&gt;3. scalability :&amp;nbsp;&lt;br&gt;4. reliablity : software bugs are isolated.&lt;br&gt;5. Testing of individual service is easy." style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="210" y="760" width="690" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="zUffg30LubkWcgJBZvF0-3" value="Cons :&lt;br&gt;1. integration testing &amp;nbsp;can be dificult.&lt;br&gt;2. deployments :&amp;nbsp;&lt;br&gt;3. Operational cost : own repo, own deployment process, own db etc.&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1080" width="690" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="zUffg30LubkWcgJBZvF0-4" value="How big should a MS be?&lt;br&gt;A MS can be as small as a single api endpoint.&lt;br&gt;A MS can be a several of even dozens of api endpoints.&lt;br&gt;team size : 12 (may vary company to company)5/7/10/12" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1380" width="690" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="DxcYtjCDUBb-Zv1HhE-h" name="Page-3">
-    <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tHcQaHCFfMApkivgtKiR-1" value="Soa vs MS:&lt;br&gt;&lt;br&gt;1. reusability Vs data duplication:&lt;br&gt;reusability : (SOA: services are the reusable components i.e. ==&amp;gt; &lt;b&gt;scaling and efficiency.&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;br&gt;agility :&amp;nbsp;&lt;br&gt;fault tolerance :&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-1" value="Soa vs MS:&lt;br&gt;&lt;br&gt;1. reusability Vs data duplication:&lt;br&gt;reusability : (SOA: services are the reusable components i.e. ==&amp;gt; &lt;b&gt;scaling and efficiency.&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;br&gt;agility :&amp;nbsp;&lt;br&gt;fault tolerance :&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="170" y="100" width="650" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="690" width="260" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-3" value="mobile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-3" value="mobile" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-4" value="furniture" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-4" value="furniture" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-5" value="electronic devices" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-5" value="electronic devices" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="940" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-6" value="Microservices" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-6" value="Microservices" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="690" width="440" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-7" value="mobile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-7" value="mobile" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="707" y="730" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-8" value="furniture" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-8" value="furniture" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="707" y="820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-9" value="electronic devices" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-9" value="electronic devices" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="707" y="930" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-10" value="Functional" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-10" value="Functional" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="1150" width="180" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-11" value="application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-11" value="application" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="324" y="1150" width="180" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-12" value="enterprise" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-12" value="enterprise" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="1370" width="180" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-13" value="infra" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-13" value="infra" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="324" y="1370" width="180" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-14" value="MS will generally reduce agility and fault tolerance, since reusing a component &amp;nbsp;will create dependancies &amp;nbsp;across diff services. Instead in a MS arch. developers reuse the code or duplicate data to increase efficiency and maintain high level of independence&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=32;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-14" value="MS will generally reduce agility and fault tolerance, since reusing a component &amp;nbsp;will create dependancies &amp;nbsp;across diff services. Instead in a MS arch. developers reuse the code or duplicate data to increase efficiency and maintain high level of independence&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=32;" parent="1" vertex="1">
           <mxGeometry x="660" y="1190" width="740" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-15" value="3. Synchronous calls vs Async comms:&lt;br&gt;&lt;br&gt;SOA : services are made available throughout the enterprise via synchronous way. &amp;nbsp;&lt;br&gt;(REST API).&lt;br&gt;MS : sync . calls will create a real time dependencies which in terms reduce reliability and resiliency. &amp;nbsp;&lt;br&gt;this can be handled using event sourcing or publish/subscribe model.&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-15" value="3. Synchronous calls vs Async comms:&lt;br&gt;&lt;br&gt;SOA : services are made available throughout the enterprise via synchronous way. &amp;nbsp;&lt;br&gt;(REST API).&lt;br&gt;MS : sync . calls will create a real time dependencies which in terms reduce reliability and resiliency. &amp;nbsp;&lt;br&gt;this can be handled using event sourcing or publish/subscribe model.&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="600" y="1580" width="810" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-16" value="Interoperability:&amp;nbsp;&lt;br&gt;SOA : supports for multiple message protocols : SOAP, Messaging queuing protocol(AMQP) and MMQ(Microsoft messaging queue).&lt;br&gt;&lt;br&gt;MS : uses light weight , http, rest, JMS.&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-16" value="Interoperability:&amp;nbsp;&lt;br&gt;SOA : supports for multiple message protocols : SOAP, Messaging queuing protocol(AMQP) and MMQ(Microsoft messaging queue).&lt;br&gt;&lt;br&gt;MS : uses light weight , http, rest, JMS.&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="620" y="2010" width="820" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-17" value="Data Governance :&amp;nbsp;&lt;br&gt;SOA : common data governance across the enterprise as a result of component sharing.&lt;br&gt;MS : no consistent data gov. among the teams due to their independent nature of service:&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-17" value="Data Governance :&amp;nbsp;&lt;br&gt;SOA : common data governance across the enterprise as a result of component sharing.&lt;br&gt;MS : no consistent data gov. among the teams due to their independent nature of service:&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="660" y="2500" width="750" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-18" value="When to prefer the SOA :&lt;br&gt;&lt;br&gt;1. enabling the comm between the multiple independent apps.&lt;br&gt;building the service with express purpose of being reused one or more times.&lt;br&gt;supporting app with multiple data sources.&lt;br&gt;sever less function&lt;br&gt;exposing data or functionality to external clients.&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-18" value="When to prefer the SOA :&lt;br&gt;&lt;br&gt;1. enabling the comm between the multiple independent apps.&lt;br&gt;building the service with express purpose of being reused one or more times.&lt;br&gt;supporting app with multiple data sources.&lt;br&gt;sever less function&lt;br&gt;exposing data or functionality to external clients.&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="480" y="2750" width="610" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="tHcQaHCFfMApkivgtKiR-19" value="when to prefer MS :&amp;nbsp;&lt;br style=&quot;font-size: 22px;&quot;&gt;1. simple projects that can be easily break down.&lt;br style=&quot;font-size: 22px;&quot;&gt;2. complex apps that have either already been or have a clear way of doing.&lt;br style=&quot;font-size: 22px;&quot;&gt;organization that wants to embrace agile dev and Continious delivery.&lt;br style=&quot;font-size: 22px;&quot;&gt;3. business that want or need to optimise the cloud resources&lt;br style=&quot;font-size: 22px;&quot;&gt;4. application uses multiple frameworks and languages." style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="tHcQaHCFfMApkivgtKiR-19" value="when to prefer MS :&amp;nbsp;&lt;br style=&quot;font-size: 22px;&quot;&gt;1. simple projects that can be easily break down.&lt;br style=&quot;font-size: 22px;&quot;&gt;2. complex apps that have either already been or have a clear way of doing.&lt;br style=&quot;font-size: 22px;&quot;&gt;organization that wants to embrace agile dev and Continious delivery.&lt;br style=&quot;font-size: 22px;&quot;&gt;3. business that want or need to optimise the cloud resources&lt;br style=&quot;font-size: 22px;&quot;&gt;4. application uses multiple frameworks and languages." style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="500" y="3230" width="780" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jkzQUJYMshfhHPAhmgWD" name="Page-4">
+    <mxGraphModel dx="1434" dy="855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c_N-7_y3LeKO01vqF_O0-1" value="Microservices :&amp;nbsp;&lt;br&gt;architecture and design&lt;br&gt;few design patterns&lt;br&gt;implementing the services.&lt;br&gt;(3-4 services).&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="410" height="420" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BolMAgPmhMHxIgivOiV7" name="Page-5">
+    <mxGraphModel dx="794" dy="1636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4dkt3fiIAm5uY0ahmFpJ-1" target="4dkt3fiIAm5uY0ahmFpJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-1" value="Controller(rest apis)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="260" y="90" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-2" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="430" y="520" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4dkt3fiIAm5uY0ahmFpJ-3" target="4dkt3fiIAm5uY0ahmFpJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-3" value="service" style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4dkt3fiIAm5uY0ahmFpJ-5" target="4dkt3fiIAm5uY0ahmFpJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-5" value="repo" style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.729;entryY=-0.062;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4dkt3fiIAm5uY0ahmFpJ-8" target="4dkt3fiIAm5uY0ahmFpJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-8" value="mapper(payload)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4dkt3fiIAm5uY0ahmFpJ-9" target="4dkt3fiIAm5uY0ahmFpJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-9" value="JSON Object" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-12" value="java object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="670" width="240" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-14" value="Header" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="690" width="216" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-15" value="RequestLine" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="292" y="750" width="216" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4dkt3fiIAm5uY0ahmFpJ-16" target="4dkt3fiIAm5uY0ahmFpJ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-16" value="body(post method )" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="810" width="216" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-17" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="638" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-19" value="read the data and transform it to java object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="770" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-20" value="@RequestBody" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="890" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4dkt3fiIAm5uY0ahmFpJ-21" target="4dkt3fiIAm5uY0ahmFpJ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-21" value="name, quantity , price" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="940" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-22" value="productName" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="698" y="920" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4dkt3fiIAm5uY0ahmFpJ-24" value="9975477764" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1040" width="430" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
