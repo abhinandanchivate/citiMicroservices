@@ -1,0 +1,20 @@
+authService: base package
+config : it will hold all config related details.
+controller: will hold all rest controller
+exception : will hold all custom exceptions
+exception.error : whenever you will get any common exceptions in auth 
+application for rest purpose will be handled by this package.
+jwt : jwt related codes (validating token, creation, adding user details etc)
+model : dtos
+payload.request: will be used to accept the data from the client & 
+used in controller pacakge with @RequestBody.
+
+payload.response:will be used to send the response data from the server
+to client & will be used with ResponseEntity.
+repository : will be used to handle DB related ops.
+security : to hold all spring related security for authorization and 
+authentication.
+service : will be used to hanlde the services for our application and 
+will be used to connect with other services.
+
+
